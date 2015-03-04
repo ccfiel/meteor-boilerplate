@@ -1,0 +1,15 @@
+template(name="appLayout")
+    //if lt IE 9
+      p.browser-warning
+        strong
+          i.icon-exclamation-sign
+          | Warning
+        | - You are using an
+        strong outdated
+        | browser. Please
+        a(href="http://browsehappy.com/", target="_blank") upgrade your browser
+        | to properly view this website.
+    +_header
+    .container
+        +yield
+    +_footer
