@@ -1,5 +1,9 @@
 # meteor-boilerplate
 
+Fork - added jade and coffee. 
+     - convert all html to jade
+     - convert all js to coffee
+   
 A starting point for MeteorJS applications. Includes iron-router, Bootstrap 3, Font Awesome, LESS and more.
 
 * [Included Packages](#included-packages)
